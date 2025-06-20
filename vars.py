@@ -5,8 +5,8 @@ from os import environ
 
 API_ID = int(environ.get("API_ID", "28590286"))
 API_HASH = environ.get("API_HASH", "6a68cc6b41219dc57b7a52914032f92f")
-BOT_TOKEN = environ.get("BOT_TOKEN", "7412939071:AAFk6_MJziu22UnZOv9crH-HcwLDqzQ1SVg")
-OWNER = int(environ.get("OWNER", "611iii9553"))
+BOT_TOKEN = environ.get("BOT_TOKEN", "")
+OWNER = int(environ.get("OWNER", "6117445553"))
 CREDIT = "𝄟⃝‌🐬🇳‌ɪᴋʜɪʟ𝄟⃝🐬"
 AUTH_USER = os.environ.get('AUTH_USERS', '6117445553').split(',')
 AUTH_USERS = [int(user_id) for user_id in AUTH_USER]
